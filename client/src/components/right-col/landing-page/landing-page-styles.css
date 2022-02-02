@@ -37,7 +37,8 @@
     padding: none;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px),
+        screen and (max-height: 800px) {
     #bkg-circle {
         border-radius: 1rem;
         margin: 1rem;

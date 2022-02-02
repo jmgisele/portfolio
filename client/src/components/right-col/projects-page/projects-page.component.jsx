@@ -57,12 +57,11 @@ export const ProjectsPage = () => (
                         imgAltText="campground at night, as seen in YelpCamp portfolio project"
                         toolsUsed={['Node.js', 'MongoDB', 'Express', 'Bootstrap', 'Vanilla JS', 'EJS', 'Cloudfare', 'Mapbox']}
                         codeLink="https://github.com/jmgisele/YelpCamp"
-                        projectDescription={<div>A crowd-sourcing campsite review board mock-up completed as part of a
-                            <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">
-                                Udemy full-stack course</a>.
+                        projectDescription={<p>A crowd-sourcing campsite review board mock-up completed as part of a <span>
+                            <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">Udemy full-stack course</a></span>.
                             Implements full CRUD, authentication/authorization, basic sanitation of user inputs, and more. I
                             also implemented custom error-handling and both client- and server-side validation to make sure
-                            nobody was uploading 1000s of images to my free cloudfare account. . . .</div>}
+                            nobody was uploading 1000s of images to my free cloudfare account. . . .</p>}
                         knownBugs="An edit option for comments would be very easy to add. The main page loads all campsites at once, which isn't the 
                             best visual experience; I might add in lazy loading at some point. I'd also love to add a more robust user panel
                             where users can see all the campsites they've added, and perhaps a favoriting feature for users to collect others' campsites."
@@ -76,7 +75,7 @@ export const ProjectsPage = () => (
                         imgAltText="screenshot of todo app interface"
                         toolsUsed={['IndexedDB', 'Vanilla JS']}
                         codeLink="https://github.com/jmgisele/todo-app-main"
-                        projectDescription={<div>A basic Front End Mentors challenge I completed. I decided
+                        projectDescription={<p>A basic Front End Mentors challenge I completed. I decided
                             to add persistent storage to store the todos for an extra challenge.
                             Storage is handled client-side using IndexedDB. I assumed
                             working with IDB would be quicker than setting up a full back end and hosting it,
@@ -84,7 +83,7 @@ export const ProjectsPage = () => (
                             just whip up a quick Node/Express/Mongo backend with session that refreshed after a
                             week or so and cleared their data from the database. That way users wouldn't have to
                             log in, could still have semi-persistent storage using session, and the DB wouldn't be
-                            cluttered with old unused entries.</div>}
+                            cluttered with old unused entries.</p>}
                         knownBugs="Order of the todos doesn't persist on re-load. This could be implemented using a property on
                             the IDB entry for each todo that kept track of its place in the page, maybe using on-drop
                             handlers thru Sortablejs."

@@ -10,6 +10,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    scroll-behavior: smooth;
 }
 
 
@@ -68,9 +69,18 @@ img {
     .col {
         width: 100vw;
     }
+}
 
+@media screen and (max-width: 991px),
+        screen and (max-height: 700px) {
     #col-right {
         min-height: 100vh;
         height: fit-content;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    html {
+        background-repeat: repeat-y;
     }
 }

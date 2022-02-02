@@ -33,6 +33,7 @@
     height: 90%;
     width: 90%;
     border-radius: 0.5rem;
+    word-wrap: break-word;
 }
 .project-card img {
     border-radius: 0.5rem;
