@@ -68,9 +68,13 @@ img {
     /* for some reason making the nav icon disappear
     messes with the background image on android devices, leaving a white bar
     at the bottom of the page. this is a hacky fix I found */
-    html {
-        height: calc(100% + 75px);
-        min-height: calc(100% + 75px);
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .col {
         width: 100vw;
