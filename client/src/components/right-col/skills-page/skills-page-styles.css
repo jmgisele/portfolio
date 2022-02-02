@@ -1,0 +1,96 @@
+#skills-nav-container {
+    display: block;
+    height: fit-content;
+    min-height: min-content;
+}
+
+#skills-title-box {
+    background-color: #f33d7a;
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+#skills-title {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#skills-subtitle {
+    width: 80%;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+#flex-skills-container {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #f79bb9;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 1rem 1.5rem;
+    width: 19vw;
+    height: 15rem;
+    border-radius: .8rem;
+
+}
+
+.skill-card h6 {
+    background-color: #fa81aa;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 1rem 1rem;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    box-sizing: border-box;
+}
+
+.skill-card ul>li {
+    text-align: left;
+    font-size: 1.1rem;
+    margin: 0.2rem 0.5rem;
+    list-style-image: url('../../../assets/icons/stars.svg');
+}
+
+
+@media screen and (max-width: 1250px) {
+    #skills-subtitle {
+        font-size: 0.9rem;
+
+    }
+    .skill-card {
+        width: 18.5vw;
+        height: 14rem;
+    }
+
+    .skill-card ul>li {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .skill-card {
+        width: 40vw;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .skill-card {
+        width: 80%;
+    }
+
+}

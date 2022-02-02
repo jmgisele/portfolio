@@ -1,0 +1,30 @@
+.left-col-container h1, .left-col-container h2 {
+    font-weight: 400;
+    margin: 1rem 0rem;
+}
+
+.left-col-container h1 {
+    font-size: 2rem;
+
+}
+
+.left-col-container h2 {
+    font-size: 1.6rem;
+
+}
+
+.left-col-container p {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#how {
+    margin-top: 0rem;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+}
+
+#how-tooltip-text {
+    width: 35vw;
+    font-size: 0.8rem;
+}

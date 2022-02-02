@@ -1,0 +1,125 @@
+:root {
+    --background-label-projects-color: #ec4a80;
+
+}
+
+#flex-projects-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-container {
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+}
+
+.swiper-slide {
+    min-height: var(--background-container-min-height);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: transparent;
+}
+
+.project-card {
+    columns: 1;
+    padding: 1rem;
+    background-color: #f79bb9;
+    text-align: center;
+    box-sizing: border-box;
+    height: 90%;
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.project-card img {
+    border-radius: 0.5rem;
+    max-inline-size: 100%;
+    width: 80%;
+    margin: 0rem 0rem 1rem 0rem;
+    block-size: auto;
+    object-fit: contain;
+}
+
+.project-title {
+    display: block;
+    background-color: var(--background-label-projects-color);
+    color: black;
+    border-radius: 0.5rem;
+    width: 40%;
+    margin: auto;
+    padding: 0.5rem 0rem;
+    font-size: 1.3rem;    
+}
+
+.tools-box {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--background-label-projects-color);
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.tools-content {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.tools-box div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tools-tag {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px rgb(121, 11, 88) solid;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #d523d5, #e96994);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+
+.code-link {
+    margin: 1rem 0rem;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--background-label-projects-color);
+    color: rgb(27, 20, 6);
+    border-radius: 0.5rem;
+}
+
+.inner-content {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background-color: var(--background-label-projects-color);
+    padding: 0.5rem;
+
+}
+
+@media screen and (max-width: 991px) {
+    .project-card {
+        padding: 1rem;
+        columns: 1;
+    }
+    
+    .inner-content {
+        margin-top: 1rem;
+    }
+}

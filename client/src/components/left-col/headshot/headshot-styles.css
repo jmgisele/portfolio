@@ -1,0 +1,7 @@
+#headshot {
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    border-radius: 50%;
+    box-shadow: 0.5rem 0.8rem 2rem rgb(116, 50, 81);
+}

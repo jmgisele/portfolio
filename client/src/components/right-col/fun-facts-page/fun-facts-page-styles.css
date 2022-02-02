@@ -1,0 +1,32 @@
+#fun-wrapper {
+    background: rgba(233, 157, 193, 0.671);
+    width: 85%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+#fun-wrapper h3 {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0rem;
+}
+
+#fun-wrapper li {
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+    list-style-image: url('../../../assets/icons/stars.svg');
+}
+
+
+@media screen and (min-width: 1400px) {
+    #fun-wrapper li {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #fun-wrapper {
+        width: 90%;
+    }
+}

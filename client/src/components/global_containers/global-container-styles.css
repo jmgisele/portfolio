@@ -1,0 +1,76 @@
+:root {
+    --pink-left: rgb(226, 36, 125);
+}
+
+html {
+    background: linear-gradient(rgba(223, 214, 214, 0.082),
+            rgba(223, 214, 214, 0.082)),
+        url("../../assets/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: white 3px solid;
+}
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#col-left {
+    background-color: var(--pink-left);
+    box-shadow: 12px 12px 30px rgb(221, 9, 108);
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+#col-right {
+    height: 100vh;
+}
+
+@media screen and (max-width: 991px) {
+    .col {
+        width: 100vw;
+    }
+
+    #col-right {
+        min-height: 100vh;
+        height: fit-content;
+    }
+}

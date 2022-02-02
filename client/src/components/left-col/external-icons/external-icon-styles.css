@@ -1,0 +1,24 @@
+#flexbox-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem;
+}
+
+.external-links {
+    margin: 0.5rem 1rem;
+}
+
+.tooltip img {
+    width: 15px;
+    height: 15px;
+}
+
+/* has to be !important to override
+react-tooltip default styling*/
+@media screen and (max-width: 991px) {
+    .tooltip {
+        font-size: 0.8rem !important;
+    }
+}

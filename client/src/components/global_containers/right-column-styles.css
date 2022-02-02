@@ -1,0 +1,36 @@
+#full-container {
+    height:95%;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --background-height: 93%;
+    --background-container-min-height: calc(0.93*95vh);
+}
+
+
+#background {
+    width: 100%;
+    height: var(--background-height);
+    border-radius: 0rem 0rem 1rem 1rem;
+    background-color: rgba(233, 179, 194, 0.527);
+    overflow: auto;
+}
+
+@media screen and (max-width: 991px) {
+    :root {
+        --background-height: 90%;
+    }
+
+    #full-container {
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    #background {
+        height: fit-content;
+        min-height: var(--background-container-min-height);
+    }
+}

@@ -1,0 +1,16 @@
+#resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#click-download-resume {
+    margin: 1rem 0rem;
+}
+
+.pdf-container {
+    margin: 2rem 0rem 0rem 0rem;
+    color: black;
+}
