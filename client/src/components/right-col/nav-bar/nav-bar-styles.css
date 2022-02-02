@@ -55,13 +55,16 @@ button {
 }
 
 @media screen and (max-width: 400px) {
+    nav {
+        justify-content: center;
+    }
     .folder p {
         font-size: 0.65rem;
     }
     .folder .dir-icon {
-        width: 0.5rem;
-        height: 0.5rem;
-        margin: 0.1rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        margin: 0.5rem;
     }
 }
 
