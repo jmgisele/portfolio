@@ -1,4 +1,4 @@
-nav {
+nav, .nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,7 +55,7 @@ button {
 }
 
 @media screen and (max-width: 400px) {
-    nav {
+    nav, .nav {
         justify-content: center;
     }
     .folder p {

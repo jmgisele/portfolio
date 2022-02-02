@@ -21,7 +21,7 @@ export class NavBar extends React.Component {
 
     render() {
         return (
-            <nav>
+            <nav className="nav">
                 <button className="folder" aria-label="view landing page" id="landing" onClick={this.handleClick}>
                     <img src={home} alt="" id="landing-icon" className="dir-icon" />
                     <p id="landing-text">Home</p>

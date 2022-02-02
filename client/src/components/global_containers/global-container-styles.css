@@ -3,8 +3,7 @@
 }
 
 html {
-    background: linear-gradient(rgba(223, 214, 214, 0.082),
-            rgba(223, 214, 214, 0.082)),
+    background:
         url("../../assets/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -66,21 +65,22 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+    /* for some reason making the nav icon disappear
+    messes with the background image on android devices, leaving a white bar
+    at the bottom of the page. this is a hacky fix I found */
+    html {
+        height: calc(100% + 75px);
+        min-height: calc(100% + 75px);
+    }
     .col {
         width: 100vw;
     }
 }
 
 @media screen and (max-width: 991px),
-        screen and (max-height: 700px) {
+screen and (max-height: 700px) {
     #col-right {
         min-height: 100vh;
         height: fit-content;
-    }
-}
-
-@media screen and (min-height: 700px) {
-    html {
-        background-repeat: repeat-y;
     }
 }
