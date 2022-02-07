@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.fa0b8f59.css",
-    "main.js": "/static/js/main.d868801b.js",
+    "main.js": "/static/js/main.5afd80d2.js",
     "static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg": "/static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.e02ccff3ac0b2b5b2c08.jpg",
     "static/media/headshot.jpeg": "/static/media/headshot.3d9fc6d6d37a0b4552d8.jpeg",
     "static/media/desktop.png": "/static/media/desktop.1429942defd6cd0076c1.png",
+    "static/media/james_gisele_resume.pdf": "/static/media/james_gisele_resume.356d0bb250d08800be6a.pdf",
     "static/media/generic.jpeg": "/static/media/generic.62eb25bf1d69c9a758ea.jpeg",
-    "static/media/james_gisele.pdf": "/static/media/james_gisele.e921a852b149bbaafb86.pdf",
     "static/media/stars.svg": "/static/media/stars.30a4075555de4eaa4fb0.svg",
     "static/media/question.svg": "/static/media/question.01f316b32f49169b57af5c0c6b8d44de.svg",
     "static/media/magic.svg": "/static/media/magic.d3386740c02bff454c327a0bb0d90a7a.svg",
@@ -22,10 +22,10 @@
     "static/media/email.svg": "/static/media/email.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/arrow.svg": "/static/media/arrow.cc140f5429580bcf81288c0e9b1aed67.svg",
     "main.fa0b8f59.css.map": "/static/css/main.fa0b8f59.css.map",
-    "main.d868801b.js.map": "/static/js/main.d868801b.js.map"
+    "main.5afd80d2.js.map": "/static/js/main.5afd80d2.js.map"
   },
   "entrypoints": [
     "static/css/main.fa0b8f59.css",
-    "static/js/main.d868801b.js"
+    "static/js/main.5afd80d2.js"
   ]
 }

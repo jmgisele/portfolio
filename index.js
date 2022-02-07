@@ -11,13 +11,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'))
 })
 
-//to get resume
-app.get('/james_gisele.pdf', (req, res) => {
-    var data = fs.readFileSync('./files/james_gisele.pdf');
-    res.contentType("application/pdf");
-    res.send(data);
-})
-
 // Handles any requests that don't match the ones above. Change me to a 401 page!
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
