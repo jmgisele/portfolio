@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Document, Page, pdfjs } from "react-pdf";
 
-import resumePdf from './../../../assets/james_gisele_resume.pdf';
+import resumePdf from './../../../assets/James_Gisele_resume.pdf';
 import './resume-page-styles.css'
 
 import { ColorfulBackground } from '../colorful-background/colorful-background.component';
@@ -53,7 +53,7 @@ export const ResumePage = () => {
         <NavAnimation >
             <ColorfulBackground id="resume-container" >
                 <PdfView pdf={resumePdf} height={resumeDimensions.resumeHeight} width={resumeDimensions.resumeWidth} containerClass="pdf-container" pageClass="pdf-page" />
-                <a href='/james_gisele_resume.pdf' id="click-download-resume" download>(click to download)</a>
+                <a href='/James_Gisele_resume.pdf' id="click-download-resume" download>(click to download)</a>
             </ColorfulBackground>
         </NavAnimation>
     );

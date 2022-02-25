@@ -26,10 +26,10 @@ export const SkillsPage = () => (
             <h5 id="skills-subtitle">Don't see your stack? I'm always looking to pick up something new....</h5>
         </div>
         <section id="flex-skills-container">
-            <SkillCard title="Libraries & Frameworks" items={['React', 'Django', 'Sass/SCSS', 'Framer Motion', 'Bootstrap']} />
+            <SkillCard title="Libraries & Frameworks" items={['React/Next.js', 'Django', 'Sass/SCSS', 'MUI', 'Bootstrap']} />
             <SkillCard title="Back-End & Databases" items={['Node.js', 'Express', 'AJAX & APIs', 'RESTful routing', 'EJS']} />
-            <SkillCard title="Misc Tools/Languages" items={['Git/Github', 'NPM', 'Python 3', 'Linux/Bash', 'Postman']} />
-            <SkillCard title="Web Fundamentals" items={['Semantic & Accessible HTML5', 'CSS3', 'Javascript (ES6)']} />
+            <SkillCard title="Misc Tools/Languages" items={['Git/Github', 'Figma', 'Python 3', 'Linux/Bash']} />
+            <SkillCard title="Web Fundamentals" items={['JavaScript (ES6) / TypeScript', 'Semantic & Accessible HTML5', 'CSS3']} />
         </section>
     </NavAnimation>
 )

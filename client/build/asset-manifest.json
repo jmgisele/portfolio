@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa0b8f59.css",
-    "main.js": "/static/js/main.5afd80d2.js",
-    "static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.jpg": "/static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.e02ccff3ac0b2b5b2c08.jpg",
-    "static/media/headshot.jpeg": "/static/media/headshot.3d9fc6d6d37a0b4552d8.jpeg",
-    "static/media/desktop.png": "/static/media/desktop.1429942defd6cd0076c1.png",
-    "static/media/james_gisele_resume.pdf": "/static/media/james_gisele_resume.356d0bb250d08800be6a.pdf",
-    "static/media/generic.jpeg": "/static/media/generic.62eb25bf1d69c9a758ea.jpeg",
+    "main.css": "/static/css/main.4f02cdd8.css",
+    "main.js": "/static/js/main.61f5603f.js",
+    "static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.avif": "/static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.bf530dbbfe8068898a1b.avif",
+    "static/media/James_Gisele_resume.pdf": "/static/media/James_Gisele_resume.4d9c8e486279f87a671e.pdf",
+    "static/media/headshot.avif": "/static/media/headshot.21ecb358d75a7e0d6677.avif",
+    "static/media/desktop.avif": "/static/media/desktop.20cbc16643402d616945.avif",
+    "static/media/generic.avif": "/static/media/generic.764309441f94a2dcee03.avif",
     "static/media/stars.svg": "/static/media/stars.30a4075555de4eaa4fb0.svg",
     "static/media/question.svg": "/static/media/question.01f316b32f49169b57af5c0c6b8d44de.svg",
     "static/media/magic.svg": "/static/media/magic.d3386740c02bff454c327a0bb0d90a7a.svg",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
     "static/media/clipboard-check.svg": "/static/media/clipboard-check.679c3590a6fc549a004d6b47837012fa.svg",
+    "index.html": "/index.html",
     "static/media/phone.svg": "/static/media/phone.92e390f92427328323834e1b8ab89138.svg",
     "static/media/code.svg": "/static/media/code.3b06297fea76c7739c19bd2199c24084.svg",
-    "index.html": "/index.html",
     "static/media/clipboard.svg": "/static/media/clipboard.24234b146e19c85c710381b26f65ca67.svg",
     "static/media/home.svg": "/static/media/home.672c9a9eeb99bd20c1be8617f848835c.svg",
     "static/media/resume.svg": "/static/media/resume.fe324fae4114a4f3b69741e2e3b68f2b.svg",
     "static/media/email.svg": "/static/media/email.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/arrow.svg": "/static/media/arrow.cc140f5429580bcf81288c0e9b1aed67.svg",
-    "main.fa0b8f59.css.map": "/static/css/main.fa0b8f59.css.map",
-    "main.5afd80d2.js.map": "/static/js/main.5afd80d2.js.map"
+    "main.4f02cdd8.css.map": "/static/css/main.4f02cdd8.css.map",
+    "main.61f5603f.js.map": "/static/js/main.61f5603f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa0b8f59.css",
-    "static/js/main.5afd80d2.js"
+    "static/css/main.4f02cdd8.css",
+    "static/js/main.61f5603f.js"
   ]
 }

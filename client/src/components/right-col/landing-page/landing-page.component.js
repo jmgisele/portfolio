@@ -14,7 +14,7 @@ export const LandingPage = (props) => (
                     and delight in learning new things. I value maintainability, accessibility,
                     and cleanliness in my work (and hopefully so do you!)
                     <br></br><br></br>
-                    I primarily code in JavaScript and Python. I've done work on React, Node/Express, and Django
+                    I primarily code in JavaScript/TypeScript and Python. I've done work on React, Node/Express, and Django
                     apps, and am always looking forward to picking up new tools and trying something new. I enjoy work on both the front and back-end.
                     <br></br><br></br>
                     I'm currently looking for work! Click around to learn more about my skillset and get in touch.

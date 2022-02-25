@@ -10,8 +10,8 @@ import "swiper/css/effect-cards"
 
 import './projects-page-styles.css'
 
-import campPic from '../../../assets/generic.jpeg'
-import todoPic from '../../../assets/desktop.png'
+import campPic from '../../../assets/generic.avif'
+import todoPic from '../../../assets/desktop.avif'
 
 
 // import Swiper core and required modules
