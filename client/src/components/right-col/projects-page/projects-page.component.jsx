@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
         projectDescription, knownBugs } = props;
     return (
         <article className="project-card">
-            <img src={pic} alt={imgAltText}></img>
+            <img src={pic} alt={imgAltText} loading="lazy"></img>
             <a href={link} className="project-title" target="_blank" rel="noreferrer">{title}</a>
             <div className="tools-box">
                 <h3 className="tools-content">Languages + Tools Used</h3>
