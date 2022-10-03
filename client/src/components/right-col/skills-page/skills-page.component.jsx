@@ -3,8 +3,8 @@ import { NavAnimation } from '../nav-animation/nav-animation.component';
 
 import './skills-page-styles.css'
 
-const SkillItems = (props) => {
-    const list = props.items.map((item, i) => <li key={i}>{item}</li>)
+const SkillItems = ({items}) => {
+    const list = items.map((item, i) => <li key={i}>{item}</li>)
     return list;
 }
 
