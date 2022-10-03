@@ -9,11 +9,11 @@ const SkillItems = (props) => {
 }
 
 
-const SkillCard = (props) => (
+const SkillCard = ({title, items}) => (
     <div className="skill-card">
-        <h6>{props.title}</h6>
+        <h6>{title}</h6>
         <ul>
-            <SkillItems items={props.items} />
+            <SkillItems items={items} />
         </ul>
     </div>
 )
@@ -26,10 +26,10 @@ export const SkillsPage = () => (
             <h5 id="skills-subtitle">Don't see your stack? I'm always looking to pick up something new....</h5>
         </div>
         <section id="flex-skills-container">
-            <SkillCard title="Libraries & Frameworks" items={['React/Next.js', 'Django', 'Sass/SCSS', 'MUI', 'Bootstrap']} />
-            <SkillCard title="Back-End & Databases" items={['Node.js', 'Express', 'AJAX & APIs', 'RESTful routing', 'EJS']} />
-            <SkillCard title="Misc Tools/Languages" items={['Git/Github', 'Figma', 'Python 3', 'Linux/Bash']} />
-            <SkillCard title="Web Fundamentals" items={['JavaScript (ES6) / TypeScript', 'Semantic & Accessible HTML5', 'CSS3']} />
+            <SkillCard title="Langauages, Frameworks, Libraries" items={['React/Next.js', 'Flask', 'Django', 'Node', 'TypeScript', '(legacy) ColdFusion', '(legacy) jQuery' ]} />
+            <SkillCard title="Styling" items={['SCSS', 'Bootstrap', 'MUI/Chakra', 'Figma']} />
+            <SkillCard title="Databases" items={['SQL Server', 'Postgres', 'MongoDB']} />
+            <SkillCard title="Tools, Testing, Etc" items={['CI/CD', 'Agile', 'Linux/Bash', 'Jest/Enzyme', 'React Testing Library', 'RESTful API design' ]} />
         </section>
     </NavAnimation>
 )

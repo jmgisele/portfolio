@@ -1,32 +1,22 @@
 import React from 'react'
-import { NavAnimation } from '../nav-animation/nav-animation.component';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-
+import SwiperCore, { Navigation, EffectCards } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css";
 import "swiper/css/effect-cards"
 
-import './projects-page-styles.css'
+import { NavAnimation } from '../nav-animation/nav-animation.component';
+import { ColorfulBackground } from '../colorful-background/colorful-background.component';
 
 import campPic from '../../../assets/generic.avif'
 import todoPic from '../../../assets/desktop.avif'
+import './projects-page-styles.css'
 
-
-// import Swiper core and required modules
-import SwiperCore, {
-    EffectCards
-} from 'swiper';
-import { ColorfulBackground } from '../colorful-background/colorful-background.component';
-
-// install Swiper modules
+// Swiper modules
 SwiperCore.use([EffectCards]);
 
-const ProjectCard = (props) => {
-    const { link, title, pic, imgAltText, toolsUsed, codeLink,
-        projectDescription, knownBugs } = props;
-    return (
+const ProjectCard = ({ link, title, pic, imgAltText, toolsUsed, codeLink,
+    projectDescription, knownBugs }) => (
         <article className="project-card">
             <img src={pic} alt={imgAltText} loading="lazy"></img>
             <a href={link} className="project-title" target="_blank" rel="noreferrer">{title}</a>
@@ -43,7 +33,7 @@ const ProjectCard = (props) => {
             </div>
         </article>
     )
-}
+
 
 export const ProjectsPage = () => (
     <NavAnimation id="flex-projects-container">
@@ -75,13 +65,13 @@ export const ProjectsPage = () => (
                         imgAltText="screenshot of todo app interface"
                         toolsUsed={['IndexedDB', 'Vanilla JS']}
                         codeLink="https://github.com/jmgisele/todo-app-main"
-                        projectDescription={<p>A basic Front End Mentors challenge I completed. I decided
+                        projectDescription={<p>The obligatory web dev todo app. I decided
                             to add persistent storage to store the todos for an extra challenge.
                             Storage is handled client-side using IndexedDB. I assumed
                             working with IDB would be quicker than setting up a full back end and hosting it,
                             but working with IDB is a bit of a pain. If I were remaking this project, I'd probably
                             just whip up a quick Node/Express/Mongo backend with session that refreshed after a
-                            week or so and cleared their data from the database. That way users wouldn't have to
+                            week or so and cleared their data from the database; users wouldn't have to
                             log in, could still have semi-persistent storage using session, and the DB wouldn't be
                             cluttered with old unused entries.</p>}
                         knownBugs="Order of the todos doesn't persist on re-load. This could be implemented using a property on

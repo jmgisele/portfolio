@@ -1,6 +1,9 @@
 import React from 'react'
+
 import { NavAnimation } from '../nav-animation/nav-animation.component';
+
 import './fun-facts-page-styles.css'
+
 export const FunPage = () => (
     <NavAnimation>
             <div id="fun-wrapper">
@@ -22,7 +25,8 @@ export const FunPage = () => (
                         I read critical theory for fun, much to the chagrin of those around me.
                     </li>
                     <li>
-                        I have two cats! One is a grumpy old man and the other is a tiny baby demon. They bond over their shared love of begging for food, which I am trying to condition them out of. . . .ask me how it's going?
+                        I have two cats! One is a grumpy old man and the other is a tiny baby demon. 
+                        They bond over their shared love of begging for food, which I am trying to condition them out of. . . .ask me how it's going?
                     </li>
                     <li>
                         I am trained in classical ballet and classical choral music, and love to dance and sing.

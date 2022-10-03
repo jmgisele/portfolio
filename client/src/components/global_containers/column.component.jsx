@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const Column = (props) => (
-    <section className={props.className} id={props.id}>
-        {props.children}
+export const Column = ({className, id, children}) => (
+    <section className={className} id={id}>
+        {children}
     </section>
 )

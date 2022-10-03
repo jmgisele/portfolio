@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import ReactTooltip from 'react-tooltip'
 
-
-import './external-icon-styles.css'
-
 import githubIcon from '../../../assets/icons/github.svg'
 import linkedinIcon from '../../../assets/icons/linkedin.svg'
 import phone from '../../../assets/icons/phone.svg'
@@ -11,16 +8,18 @@ import email from '../../../assets/icons/email.svg'
 import clipboard from '../../../assets/icons/clipboard.svg'
 import clipboardCheck from '../../../assets/icons/clipboard-check.svg'
 
-const Email = (props) => (
-    <p id="email-tooltip" className="tooltip">james.may.gisele@protonmail.com <br></br> {props.text} <span><img alt="" src={props.clip}></img></span></p>
+import './external-icon-styles.css'
+
+const Email = ({text, clip}) => (
+    <p id="email-tooltip" className="tooltip">james.may.gisele@protonmail.com <br></br> {text} <span><img alt="" src={clip}></img></span></p>
 )
 
-const Phone = (props) => (
-    <p id="phone-tooltip" className="tooltip">503-708-4217 <br></br> {props.text} <span><img alt="" src={props.clip}></img></span></p>
+const Phone = ({text, clip}) => (
+    <p id="phone-tooltip" className="tooltip">503-708-4217 <br></br> {text} <span><img alt="" src={clip}></img></span></p>
 )
 
 
-export const ExternalIcons = (props) => {
+export const ExternalIcons = () => {
     const [emailText, setEmailText] = useState(<Email clip={clipboard} text="double click!" />);
     const [phoneText, setPhoneText] = useState(<Phone clip={clipboard} text="double click!" />)
 

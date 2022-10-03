@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
-
-import './left-column-styles.css'
+import { motion } from "framer-motion";
 
 import { Headshot } from '../left-col/headshot/headshot.component'
 import { ExternalIcons } from '../left-col/external-icons/external-icons.component';
 import { NavArrow } from '../left-col/nav-arrow/nav-arrow.component'
 
-import { motion } from "framer-motion";
+import './left-column-styles.css'
 
-
-
-export const LeftColumn = (props) => (
+export const LeftColumn = () => (
     <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -33,7 +30,8 @@ export const LeftColumn = (props) => (
             how'd you make this website?
         </p>
         <ReactTooltip className='tooltip' place="top" id="how-tooltip" effect="solid" textColor='#000000' backgroundColor='#eb9dc1'>
-            <p id="how-tooltip-text">This website was made with a React front-end and a Node/Express back-end.
+            <p id="how-tooltip-text">This website was made with a React front-end and a minimal Node/Express back-end. 
+            You can check it out on my github!
             </p>
         </ReactTooltip>
         <NavArrow />

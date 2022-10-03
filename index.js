@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'))
 })
 
-// Handles any requests that don't match the ones above. Change me to a 401 page!
+// Handles any requests that don't match the ones above. 
+// If I cared about an actual backend, I'd make me a 401
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
 });

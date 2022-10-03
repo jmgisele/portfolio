@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Document, Page, pdfjs } from "react-pdf";
 
-import resumePdf from './../../../assets/James_Gisele_resume.pdf';
-import './resume-page-styles.css'
-
 import { ColorfulBackground } from '../colorful-background/colorful-background.component';
 import { NavAnimation } from '../nav-animation/nav-animation.component';
 import { debounce } from '../../custom_utils/debounce';
+
+import resumePdf from './../../../assets/James_Gisele_resume.pdf';
+import './resume-page-styles.css'
 
 //i do not use annotations but this fixes a dead space at bottom bug from react-pdf
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -15,14 +15,11 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-const PdfView = (props) => {
-    const { pdf, containerClass, pageClass, height, width } = props;
-    return (
+const PdfView = ({ pdf, containerClass, pageClass, height, width } ) => (
         <Document file={pdf} className={containerClass}>
             <Page pageNumber={1} className={pageClass} height={height} scale={1} width={width} />
         </Document>
-    );
-}
+);
 
 export const ResumePage = () => {
     let containerWidth = () => document.querySelector('#background').offsetWidth;
@@ -34,9 +31,9 @@ export const ResumePage = () => {
         resumeHeight
     })
 
-    //add an event listener to resize resume when window resizes
+    // add an event listener to resize resume when window resizes
     useEffect(() => {
-        //debounced so it doesn't impact performance--- only resizes every 150ms 
+        // debounced so it doesn't impact performance--- only resizes every 150ms 
         const debouncedHandleResize = debounce(() => {
             setResumeDimensions({
                 resumeWidth,
