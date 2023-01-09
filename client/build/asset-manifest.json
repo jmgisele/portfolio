@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.608d7498.css",
-    "main.js": "/static/js/main.a3af1d1a.js",
+    "main.css": "/static/css/main.2b062b1c.css",
+    "main.js": "/static/js/main.3968a996.js",
     "static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.avif": "/static/media/joanna-kosinska-Uvl3W4XWd4U-unsplash.bf530dbbfe8068898a1b.avif",
     "static/media/profile_small.jpeg": "/static/media/profile_small.d894264db1157a4f4ae7.jpeg",
     "static/media/James_Gisele_resume.pdf": "/static/media/James_Gisele_resume.2272df871ef863eb7b1a.pdf",
@@ -21,11 +21,11 @@
     "static/media/resume.svg": "/static/media/resume.fe324fae4114a4f3b69741e2e3b68f2b.svg",
     "static/media/email.svg": "/static/media/email.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/arrow.svg": "/static/media/arrow.cc140f5429580bcf81288c0e9b1aed67.svg",
-    "main.608d7498.css.map": "/static/css/main.608d7498.css.map",
-    "main.a3af1d1a.js.map": "/static/js/main.a3af1d1a.js.map"
+    "main.2b062b1c.css.map": "/static/css/main.2b062b1c.css.map",
+    "main.3968a996.js.map": "/static/js/main.3968a996.js.map"
   },
   "entrypoints": [
-    "static/css/main.608d7498.css",
-    "static/js/main.a3af1d1a.js"
+    "static/css/main.2b062b1c.css",
+    "static/js/main.3968a996.js"
   ]
 }
