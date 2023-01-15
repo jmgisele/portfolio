@@ -97,7 +97,7 @@ export const ProjectsPage = () => (
                 page loads all campsites at once, which isn't the best visual
                 experience; lazy loading would be better. It's unlikely I'll
                 ever touch this project again; it was an excellent way to learn
-                the basics but isn't exactly glamorous.
+                the basics but isn't exactly the most exciting app.
               </p>
             }
           />
